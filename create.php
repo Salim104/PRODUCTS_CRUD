@@ -98,20 +98,20 @@ function randomString($n)
 
   <form action="" method="post" enctype="multipart/form-data">
       <div class="form-group mb-3">
-        <label>Product Image</label>
+        <label>Product image</label>
         <br>
         <input type="file" name="image">
       </div>
       <div class="form-group mb-3">
-        <label>Product Title</label>
+        <label>Product title</label>
         <input type="text" class="form-control"  name="title" value="<?php echo $title ?>">
       </div>
       <div class="form-group mb-3">
-        <label>Product Description</label>
+        <label>Product description</label>
         <textarea class="form-control"  name="description" value="<?php echo $description ?>"></textarea>
       </div>
       <div class="form-group mb-3">
-        <label>Product Price</label>
+        <label>Product price</label>
         <input type="number" step=".01"  name="price" class="form-control" value="<?php echo $price ?>">
       </div>
        <button type="submit" class="btn btn-primary">Submit</button>

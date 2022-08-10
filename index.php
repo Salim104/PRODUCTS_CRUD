@@ -43,7 +43,7 @@
     <title>Hello, world!</title>
     <style>
       body{
-        padding: 50px;
+        padding: 60px;
       }
     </style>
   </head>
@@ -64,7 +64,7 @@
   <thead>
     <tr>
      <th>#</th>
-        <th>image</th>
+        <th>Image</th>
         <th>Title</th>
 
         <th>price</th>
